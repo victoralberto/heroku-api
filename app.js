@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const https = require("https")
 const fs = require("fs")
-const port = 8000
+const port = 80
 
 // caso eu precise: http://localhost/Learning/read
 
