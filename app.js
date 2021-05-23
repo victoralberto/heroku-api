@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const https = require("https")
 const fs = require("fs")
-const port = 80
 
 // caso eu precise: http://localhost/Learning/read
 
@@ -52,6 +51,6 @@ app.get('/', (req, res) => {
     request.end() //Finaliza a requisição
 });
 
-app.listen(port, () => {
+app.listen(() => {
     console.log('Example app listening at http://localhost/');
 })
